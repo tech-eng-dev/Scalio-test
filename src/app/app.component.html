@@ -1,4 +1,6 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div fxLayout="column" fxLayoutAlign="space-around center" >
+  <app-search></app-search>
+  <app-results></app-results>
+</div>
+<router-outlet></router-outlet>
+<ngx-spinner></ngx-spinner>
